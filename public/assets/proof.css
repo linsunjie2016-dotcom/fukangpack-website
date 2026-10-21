@@ -1,0 +1,24 @@
+.assurance{background:#fafbf9;padding:62px 0;border-bottom:1px solid #e6e9e5}
+.assurance-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:25px}
+.assurance-heading .eyebrow{font-size:10px;letter-spacing:.17em}
+.assurance-heading h2{font:750 32px/1.15 Manrope,Arial,sans-serif;letter-spacing:-.04em;margin:11px 0 0}
+.assurance-link{display:inline-flex;gap:20px;align-items:center;font-size:12px;font-weight:750;white-space:nowrap;padding:13px 0;border-bottom:1px solid #c4cbc5;color:#35483d}
+.assurance-link span{font-size:20px;color:#b7102d}
+.assurance-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.assurance-tile{display:flex;align-items:center;justify-content:center;height:116px;min-width:0;background:#fff;border:1px solid #e8ece7;border-radius:4px;padding:22px}
+.assurance-tile img{display:block;width:100%;max-width:210px;height:auto;clip-path:inset(3px)}
+.assurance-note{max-width:780px;color:#68746d;font-size:14px;line-height:1.8;margin:24px 0 0}
+.assurance-strip{padding:34px 0 36px}
+.assurance-strip .assurance-heading h2{font-size:25px}
+.assurance-strip .assurance-grid{grid-template-columns:repeat(8,minmax(0,1fr));gap:10px}
+.assurance-strip .assurance-tile{height:84px;padding:12px 8px}
+.assurance-strip .assurance-tile img{max-width:150px;height:auto}
+.campus-preview{background:#fff;padding:70px 0}
+.campus-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:65px;align-items:center}
+.campus-copy h2{font:800 clamp(32px,3.3vw,52px)/1.08 Manrope,Arial,sans-serif;letter-spacing:-.045em;margin:22px 0}
+.campus-copy p{font-size:15px;line-height:1.75;color:#64716c;max-width:390px;margin:0 0 24px}
+.campus-frame{margin:0;min-width:0}
+.campus-frame img{display:block;width:100%;height:auto;aspect-ratio:1672/941;object-fit:contain}
+.campus-frame figcaption{display:flex;justify-content:space-between;padding-top:14px;font-size:10px;font-weight:700;letter-spacing:.1em;color:#657269}
+@media(max-width:1100px){.assurance-strip .assurance-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.campus-layout{gap:32px}.campus-copy h2{font-size:38px}}
+@media(max-width:650px){.assurance,.assurance-strip{padding:30px 0}.assurance-heading{align-items:flex-start;gap:16px;flex-direction:column;margin-bottom:20px}.assurance-heading h2,.assurance-strip .assurance-heading h2{font-size:25px}.assurance-link{padding:6px 0;font-size:11px}.assurance-grid,.assurance-strip .assurance-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.assurance-tile,.assurance-strip .assurance-tile{height:76px;padding:10px 12px}.assurance-tile img,.assurance-strip .assurance-tile img{max-width:150px;height:auto}.campus-preview{padding:42px 0}.campus-layout{grid-template-columns:1fr;gap:26px}.campus-copy h2{font-size:36px;margin:16px 0}.campus-copy p{font-size:14px;margin-bottom:20px}.campus-frame figcaption{font-size:8px}}
